@@ -1,0 +1,26 @@
+{
+  "name": "s3-bulk-uploader",
+  "version": "1.0.0",
+  "description": "Bulk upload files to AWS S3 with Node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alperg/s3-bulk-uploader.git"
+  },
+  "keywords": [],
+  "author": "Alper Gokcehan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alperg/s3-bulk-uploader/issues"
+  },
+  "homepage": "https://github.com/alperg/s3-bulk-uploader#readme",
+  "dependencies": {
+    "aws-sdk": "^2.553.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  }
+}
